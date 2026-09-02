@@ -51,7 +51,7 @@ export function ExperienceSection() {
             className='font-mono text-xs tracking-[0.3em] uppercase'
             style={{ color: LIME }}
           >
-            05 / Experience
+            03 / Experience
           </span>
           <div
             className='flex-1 h-px'

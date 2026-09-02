@@ -58,7 +58,7 @@ export function AboutSection() {
             className='font-mono text-xs tracking-[0.3em] uppercase'
             style={{ color: LIME }}
           >
-            02 / About
+            05 / About
           </span>
           <div
             className='flex-1 h-px'

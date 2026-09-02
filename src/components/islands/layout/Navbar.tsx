@@ -54,10 +54,10 @@ export function Navbar() {
   };
 
   const links = [
-    { id: 'about', label: 'About' },
     { id: 'skills', label: 'Skill' },
-    { id: 'experience', label: 'Experience' },
-    { id: 'projects', label: 'Project' },
+    { id: 'experience', label: 'Experiences' },
+    { id: 'projects', label: 'Projects' },
+    { id: 'about', label: 'About' },
     { id: 'contact', label: 'Contact' },
   ];
 

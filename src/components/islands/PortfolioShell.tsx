@@ -49,10 +49,10 @@ export default function PortfolioShell() {
       <main className="relative z-10" style={{ background: BG, marginBottom: footerHeight }}>
         <HeroSection />
         <MarqueeStrip />
-        <AboutSection />
         <SkillsSection />
-        <ProjectsSection />
         <ExperienceSection />
+        <ProjectsSection />
+        <AboutSection />
         <ContactSection />
         <div ref={footerEndRef} />
       </main>
