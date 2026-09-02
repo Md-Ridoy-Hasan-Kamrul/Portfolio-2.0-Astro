@@ -5,7 +5,8 @@ import { SiReact, SiNextdotjs, SiJavascript, SiTailwindcss, SiTypescript, SiRedu
 import { MagneticBtn } from "../common/MagneticBtn";
 import { BG, LIME, MINT, SURFACE, TEXT, BODY } from "../../../lib/theme";
 import { CV_PDF_PATH, CV_DOWNLOAD_NAME } from "../../../lib/site";
-import developerPhoto from "../../../imports/Gemini_Generated_Image_hkis8khkis8khkis.png";
+
+const developerPhoto = `${import.meta.env.BASE_URL}hero.png`;
 
 export function HeroSection() {
   const [spot, setSpot] = useState({ x: -9999, y: -9999 });
