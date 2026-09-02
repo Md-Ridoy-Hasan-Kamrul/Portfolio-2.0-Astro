@@ -4,9 +4,9 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "astro dev --force",
+    "dev": "node api.js && astro dev --force",
     "dev:stop": "astro dev stop",
-    "build": "astro build",
+    "build": "node api.js && astro build",
     "preview": "astro preview"
   },
   "dependencies": {
