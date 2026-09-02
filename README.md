@@ -2,8 +2,6 @@
 
 A single-page, animation-driven developer portfolio built with React, TypeScript, and GSAP. It presents a Front-End Developer's profile through a cinematic loading sequence, scroll-triggered reveals, a magnetic cursor, and a curated set of project case studies.
 
-**Live design source:** [Figma](https://www.figma.com/design/NHOvIqUWHvn4z6HJUqSaHW/Premium-Portfolio-Website)
-
 ## Overview
 
 The site is a single React component tree (`src/app/App.tsx`) rendered as one continuous scroll, split into the following sections:
