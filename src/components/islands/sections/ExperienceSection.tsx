@@ -170,7 +170,7 @@ export function ExperienceSection() {
           ))}
         </div>
 
-        <div className='mt-10 pl-7'>
+        <div className='mt-10'>
           <a
             href={CV_PDF_PATH}
             download={CV_DOWNLOAD_NAME}
