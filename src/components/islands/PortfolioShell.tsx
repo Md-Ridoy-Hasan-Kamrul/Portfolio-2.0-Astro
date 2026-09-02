@@ -26,6 +26,8 @@ export default function PortfolioShell() {
     const style = document.createElement("style");
     style.textContent = `
       *, *::before, *::after { box-sizing: border-box; }
+      html { scroll-padding-top: 6.5rem; }
+      section[id] { scroll-margin-top: 6.5rem; }
       body { font-family: 'Inter', sans-serif; background: ${BG}; color: ${TEXT}; scroll-behavior: smooth; }
       ::-webkit-scrollbar { width: 3px; }
       ::-webkit-scrollbar-track { background: ${BG}; }

@@ -50,7 +50,11 @@ export function Navbar() {
 
   const go = (id: string) => {
     setOpen(false);
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+    const el = document.getElementById(id);
+    if (!el) return;
+    const navHeight = navRef.current?.offsetHeight ?? 88;
+    const top = el.getBoundingClientRect().top + window.scrollY - navHeight - 24;
+    window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
   };
 
   const links = [
