@@ -1,0 +1,31 @@
+---
+import '../styles/index.css';
+import { BG, TEXT } from '../lib/theme';
+
+const siteTitle = 'Md. Ridoy Hasan Kamrul — Front-End Developer (React, Next.js, TypeScript)';
+const siteDescription =
+  'Front-End Developer portfolio showcasing React, Next.js, TypeScript projects, MERN stack experience, and client work. Available for freelance and full-time opportunities.';
+const siteUrl = 'https://portfolio-2-0-seven-opal.vercel.app';
+---
+
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{siteTitle}</title>
+    <meta name="description" content={siteDescription} />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={siteTitle} />
+    <meta property="og:description" content={siteDescription} />
+    <meta property="og:url" content={siteUrl} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={siteTitle} />
+    <meta name="twitter:description" content={siteDescription} />
+  </head>
+  <body style={`background: ${BG}; color: ${TEXT}; margin: 0; min-height: 100vh;`}>
+    <slot />
+  </body>
+</html>

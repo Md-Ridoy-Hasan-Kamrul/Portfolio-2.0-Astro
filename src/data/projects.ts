@@ -1,0 +1,78 @@
+import { MINT, PURPLE } from "../lib/theme";
+
+export const PROJECT_CATEGORIES = ["All", "Real Estate", "SaaS & AI", "Business & Web"] as const;
+
+export const PROJECTS = [
+  {
+    num: "01", title: "CoorDeck", sub: "Technologies",
+    category: "Business & Web",
+    caption: "Temporary Works Management · Next.js 14",
+    desc: "90+ Lighthouse score site built pixel-perfectly from a Figma design. Full SEO, WCAG 2.1 AA accessibility, and Framer Motion animations throughout.",
+    tags: ["Next.js 14", "TypeScript", "Framer Motion", "WCAG 2.1"],
+    img: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1400&h=780&fit=crop&auto=format",
+    live: "https://alex-coordinate.vercel.app", github: "#", accent: MINT,
+  },
+  {
+    num: "02", title: "Trading Journal", sub: "",
+    category: "SaaS & AI",
+    caption: "Performance Analytics · React 19",
+    desc: "Trading journal platform with Context API state management, localStorage trade logging, real-time P&L calculations, Recharts analytics dashboard (equity curves, win rates), and rotating reflection prompts for trading psychology.",
+    tags: ["React 19", "Tailwind CSS", "Recharts", "Context API"],
+    img: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1400&h=780&fit=crop&auto=format",
+    live: "https://rainbitx.com", github: "#", accent: PURPLE,
+  },
+  {
+    num: "03", title: "Layls", sub: "E-commerce Platform",
+    category: "Business & Web",
+    caption: "Auth & Shopping · Next.js",
+    desc: "E-commerce platform with complete authentication — Google Auth 2.0, WhatsApp/Email OTP for sign-up, login & recovery. Secure password toggle and login-gated content.",
+    tags: ["Next.js", "Google Auth 2.0", "OTP", "E-commerce"],
+    img: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1400&h=780&fit=crop&auto=format",
+    live: "https://www.layls.com", github: "#", accent: "#F59E0B",
+  },
+  {
+    num: "04", title: "M19 Logistics", sub: "Courier & Delivery",
+    category: "Business & Web",
+    caption: "Logistics Evolved · Delivery Delivered",
+    desc: "UK & Europe logistics platform offering rapid same-day delivery, specialist transport, and end-to-end supply chain solutions. Built for a Wrexham-founded courier company handling nationwide parcel delivery, secure item handling, and scheduled multi-drop routes for e-commerce businesses and individuals.",
+    tags: ["React", "React Router", "Tailwind CSS", "Lucide Icons"],
+    img: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1400&h=780&fit=crop&auto=format",
+    live: "https://m19logistics.com/", github: "#", accent: "#38BDF8",
+  },
+  {
+    num: "05", title: "Maktech Group", sub: "IT Strategy & Delivery",
+    category: "Business & Web",
+    caption: "Digital Systems for Growth · Full-Stack IT",
+    desc: "Full-stack IT company built around one idea: strategy only matters when execution is coordinated. Unifies planning, technology, and delivery into a single working system so growth becomes repeatable instead of accidental.",
+    tags: ["React", "React Router", "GSAP", "Tailwind CSS"],
+    img: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1400&h=780&fit=crop&auto=format",
+    live: "https://maktechgroup.com/", github: "#", accent: "#FB923C",
+  },
+  {
+    num: "06", title: "Elyxa", sub: "AI Execution Planner",
+    category: "SaaS & AI",
+    caption: "Adaptive Daily Planning · AI-Powered SaaS",
+    desc: "AI-powered execution planning platform that detects when you're falling behind and automatically recalibrates your day — built to maintain momentum instead of forcing a restart every time life gets messy.",
+    tags: ["React", "React Router", "Tailwind CSS", "Lucide Icons"],
+    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1400&h=780&fit=crop&auto=format",
+    live: "https://elyxaai.com", github: "#", accent: "#22D3EE",
+  },
+  {
+    num: "07", title: "Property-File", sub: "Property Intelligence",
+    category: "Real Estate",
+    caption: "Market Visibility · Real Estate Exchange",
+    desc: "Property intelligence platform covering Nigeria's real estate sector news, market analysis, developer and development tracking, and regulatory insight that gives buyers and investors clearer visibility into pricing and opportunity.",
+    tags: ["React", "React Router", "Tailwind CSS", "Lucide Icons"],
+    img: "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=1400&h=780&fit=crop&auto=format",
+    live: "https://property-file.com", github: "#", accent: "#34D399",
+  },
+  {
+    num: "08", title: "SkyRidge Group", sub: "Real Estate Agency",
+    category: "Real Estate",
+    caption: "Buy · Sell · Rent · With Confidence",
+    desc: "Real estate agency platform for buying, selling, and renting residential, commercial, and investment properties — built around transparent listings, expert guidance, and secure end-to-end transaction support.",
+    tags: ["React", "React Router", "GSAP", "Tailwind CSS"],
+    img: "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1400&h=780&fit=crop&auto=format",
+    live: "https://skyridgegroup.com", github: "#", accent: "#F472B6",
+  },
+];
