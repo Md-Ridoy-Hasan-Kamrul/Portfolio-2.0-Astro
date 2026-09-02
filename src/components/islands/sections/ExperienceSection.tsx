@@ -155,15 +155,23 @@ export function ExperienceSection() {
 
               {active === i && (
                 <div
-                  className='mt-5'
+                  className='mt-5 space-y-3'
                   style={{ paddingLeft: 'calc(8.33% + 16px)' }}
                 >
-                  <p
-                    className='text-base sm:text-lg leading-relaxed'
-                    style={{ color: BODY }}
-                  >
-                    {item.desc}
-                  </p>
+                  {item.bullets.map((point) => (
+                    <div key={point} className='flex items-start gap-3'>
+                      <span
+                        className='w-1 h-1 rounded-full flex-shrink-0 mt-2.5'
+                        style={{ background: item.color }}
+                      />
+                      <p
+                        className='text-base sm:text-lg leading-relaxed'
+                        style={{ color: BODY }}
+                      >
+                        {point}
+                      </p>
+                    </div>
+                  ))}
                 </div>
               )}
             </div>

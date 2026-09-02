@@ -2,9 +2,17 @@ import { LIME } from "../lib/theme";
 
 export const EXPERIENCE = [
   {
-    num: "01", role: "Front-End Developer", company: "Maktech via Fiverr",
-    period: "Jan 2025 — Present", color: LIME,
-    desc: "Delivering multiple live client projects via Fiverr. Building UIs with React, Next.js, Tailwind CSS & JavaScript from Figma designs to production. Integrating NPM packages and collaborating with tools like Postman, GitHub & Git.",
-    stats: ["Currently Active", "Fiverr Clients", "React & Next.js"],
+    num: "01",
+    role: "Front-End Developer",
+    company: "Maktech",
+    period: "Jan 2025 — Present",
+    color: LIME,
+    bullets: [
+      "Delivered multiple live, bespoke web applications for diverse clients via Fiverr, managing the end-to-end frontend development lifecycle.",
+      "Architected scalable user interfaces utilizing React, Next.js, TypeScript, Redux, and Tailwind CSS, ensuring strict adherence to responsive design principles.",
+      "Executed seamless API testing and version control using Postman, Git, and GitHub, facilitating efficient collaboration and high-quality code deployments.",
+      "Optimized project architectures by identifying and integrating specialized NPM packages to solve complex technical client requirements.",
+    ],
+    stats: ["React & Next.js", "TypeScript", "Redux & Tailwind"],
   },
 ];
